@@ -1,10 +1,10 @@
 # KDi3
 
-Make KDE like i3
+Make KDE like i3 
 
 Tested on Manjaro KDE and KDE Neon
 
-Depends from [https://github.com/kwin-scripts/kwin-tiling.git](https://github.com/kwin-scripts/kwin-tiling.git) by faho
+Based on [https://github.com/kwin-scripts/kwin-tiling.git](https://github.com/kwin-scripts/kwin-tiling.git) by faho
 
 ### Usage
 ```
