@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-if [ -z $2 && ! -f $HOME/.config/kglobalshortcutsrc.kd3  ]
+if [ -z $2 && ! -e $HOME/.config/kglobalshortcutsrc.kd3 ]
 then
    case "$1" in
     -i|--install)
