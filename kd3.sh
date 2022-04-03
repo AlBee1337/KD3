@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-if [ -z $2 ] 
+if [ -z $2 ] && [ ! -z $1]
 then
    case "$1" in
     -i|--install)
@@ -52,22 +52,15 @@ then
         echo "-h --help          show this message"
         shift 
       ;;
-     -""|--"")
-        echo "HELP:\n"
-        echo "-i --install             install KD3"
-        echo "-u --uninstall         uninstall KD3"
-        echo "-h --help          show this message"
-        shift 
-      ;;
     -*|--*=) # unsupported flags
         echo "Error: Unsupported flag $1" >&2
         exit 1
       ;;
   esac
 else
-    echo "\n##################################"
-    echo "#### Error: To much arguments  ####"
-    echo "###################################"
+    echo "\n##################################################"
+    echo "#### Error: To much arguments or no arguments  ####"
+    echo "###################################################"
     echo "\nHELP:\n"
     echo "-i --install             install KD3"
     echo "-u --uninstall         uninstall KD3"
