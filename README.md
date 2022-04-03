@@ -2,15 +2,25 @@
 
 Make KDE like i3 
 
-Tested on Manjaro KDE and KDE Neon
+Tested on KDE Neon but should work for every KDE Plasma Desktop
 
 Based on [https://github.com/kwin-scripts/kwin-tiling.git](https://github.com/kwin-scripts/kwin-tiling.git) by faho
 
 ### Usage
+
+#### Install
 ```
 git clone https://github.com/AlBee1337/KD3.git
 cd KD3
-sh kd3.sh
+sh kd3.sh -i
+reboot
+```
+
+#### Uninstall / Restore settings before KD3 was installed
+```
+git clone https://github.com/AlBee1337/KD3.git
+cd KD3
+sh kd3.sh -u
 reboot
 ```
 
