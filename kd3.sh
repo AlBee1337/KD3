@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-if [ -z $2 && ! -e $HOME/.config/kglobalshortcutsrc.kd3 ]
+if [ -z $2 -a ! -e $HOME/.config/kglobalshortcutsrc.kd3 ]
 then
    case "$1" in
     -i|--install)
@@ -48,7 +48,7 @@ then
       ;;
   esac
 else
-    echo "Error: To much arguments or KD3 already installed \nHELP:\n "
+    echo "Error: To much arguments or KD3 already installed \n\nHELP:\n "
     echo "-i --install             install KD3"
     echo "-u --uninstall         uninstall KD3"
     echo "-h --help          show this message"
