@@ -1,4 +1,4 @@
-# KDi3
+# KD3
 
 Make KDE like i3 
 
