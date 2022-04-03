@@ -18,8 +18,8 @@ reboot
 |Function| Shortcut|
 |-|-|
 |Show Desktop|Meta + D|
-|Konsole|Ctrl + Enter|
-|K-Runner|Alt + Blank Space|
+|**Konsole**|**Ctrl + Enter**|
+|**K-Runner**|**Alt + Blank Space**|
 |Switch to Desktop 1|Ctrl + 1|
 |Switch to Desktop 2|Ctrl + 2|
 |Switch to Desktop 3|Ctrl + 3|
@@ -44,4 +44,4 @@ reboot
 |Move Window Down|Ctrl + Down|
 |Minimize Window |Meta + Down|
 |Maximize Window |Meta + Up|
-|Close Window|Ctrl + Shift + Q|
+|**Close Window**|**Ctrl + Shift + Q**|
