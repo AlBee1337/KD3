@@ -28,7 +28,7 @@ ToolBoxButtonY=40
 
 [Containments][1][Wallpaper][org.kde.image][General]
 FillMode=0
-Image=file:///usr/share/wallpapers/MilkyWay/contents/images/5120x2880.png
+Image=/home/albi/Pictures/wallpapes/one-piece-zorro-roronoa-zoro-katana-wallpaper-preview.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][2]
@@ -57,6 +57,20 @@ DialogWidth=800
 
 [Containments][2][Applets][28][Configuration][General]
 displayedText=Number
+
+[Containments][2][Applets][29]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][29][Configuration][General]
+length=1595
+
+[Containments][2][Applets][30]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][30][Configuration][General]
+length=628
 
 [Containments][2][Applets][4]
 immutability=1
@@ -101,7 +115,7 @@ DialogHeight=91
 DialogWidth=3440
 
 [Containments][2][General]
-AppletOrder=28;4;5;8;20;6
+AppletOrder=28;29;4;30;5;8;20;6
 
 [Containments][24]
 activityId=51f5ba61-3bee-4952-a965-b41bceb413ee
@@ -113,7 +127,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][24][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/MilkyWay/contents/images/5120x2880.png
+Image=file:///usr/share/wallpapers/Bamboo at Night/contents/images/5120x2880.png
 
 [Containments][25]
 ItemGeometries-1920x1080=
@@ -131,7 +145,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/MilkyWay/contents/images/5120x2880.png
+Image=/home/albi/Pictures/wallpapes/one-piece-zorro-roronoa-zoro-katana-wallpaper-preview.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][27]
