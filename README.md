@@ -4,6 +4,8 @@ Make KDE like i3
 
 Tested on Manjaro KDE and KDE Neon
 
+Depends from [https://github.com/kwin-scripts/kwin-tiling.git](https://github.com/kwin-scripts/kwin-tiling.git) by faho
+
 ### Usage
 ```
 git clone https://github.com/AlBee1337/KDi3.git
