@@ -27,14 +27,14 @@ reboot
 |Switch to Desktop 8|Ctrl + 8|
 |Switch to Desktop 9|Ctrl + 9|
 |Window to Desktop 1|Ctrl + Shift + 1|
-|Window to Desktop 1|Ctrl + Shift + 2|
-|Window to Desktop 1|Ctrl + Shift + 3|
-|Window to Desktop 1|Ctrl + Shift + 4|
-|Window to Desktop 1|Ctrl + Shift + 5|
-|Window to Desktop 1|Ctrl + Shift + 6|
-|Window to Desktop 1|Ctrl + Shift + 7|
-|Window to Desktop 1|Ctrl + Shift + 8|
-|Window to Desktop 1|Ctrl + Shift + 9|
+|Window to Desktop 2|Ctrl + Shift + 2|
+|Window to Desktop 3|Ctrl + Shift + 3|
+|Window to Desktop 4|Ctrl + Shift + 4|
+|Window to Desktop 5|Ctrl + Shift + 5|
+|Window to Desktop 6|Ctrl + Shift + 6|
+|Window to Desktop 7|Ctrl + Shift + 7|
+|Window to Desktop 8|Ctrl + Shift + 8|
+|Window to Desktop 9|Ctrl + Shift + 9|
 |Move Window Left|Ctrl + Left|
 |Move Window Right|Ctrl + Right|
 |Move Window Up|Ctrl + Up|
