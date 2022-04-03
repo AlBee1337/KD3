@@ -4,7 +4,8 @@ if [ -z $2 ]
 then
    case "$1" in
     -i|--install)
-        if [ -f $HOME/.config/*.kd3 ];then 
+        if [ -f $HOME/.config/*.kd3 ]
+        then 
             echo "###############################"
             echo "#### KD3 already installed ####"
             echo "###############################"  
