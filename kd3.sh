@@ -4,12 +4,8 @@ if [ -z $2 ]
 then
    case "$1" in
     -i|--install)
-        if [ -f $HOME/.config/*.kd3 ]
+        if [ ! -f $HOME/.config/*.kd3 ]
         then 
-            echo "###############################"
-            echo "#### KD3 already installed ####"
-            echo "###############################"  
-        else 
             git clone https://github.com/kwin-scripts/kwin-tiling.git
             cd kwin-tiling/
             plasmapkg2 --type kwinscript -i .
@@ -31,8 +27,12 @@ then
             echo "##################################"
             echo "#### DONT REMOVE BACKUP FILES ####"
             echo "##################################"
+        else 
+            echo "###############################"
+            echo "#### KD3 already installed ####"
+            echo "###############################"  
         fi 
-      shift
+        shift
       ;;
     -u|--uninstall)
         mv $HOME/.config/krunnerrc.kd3 $HOME/.config/krunnerrc
@@ -55,9 +55,9 @@ then
       ;;
   esac
 else
-    echo "\n###########################################################"
-    echo "#### Error: To much arguments or KD3 already installed ####"
-    echo "###########################################################"
+    echo "\n##################################"
+    echo "#### Error: To much arguments  ####"
+    echo "###################################"
     echo "\nHELP:\n"
     echo "-i --install             install KD3"
     echo "-u --uninstall         uninstall KD3"
