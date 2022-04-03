@@ -28,7 +28,7 @@ ToolBoxButtonY=40
 
 [Containments][1][Wallpaper][org.kde.image][General]
 FillMode=0
-Image=/home/albi/Pictures/wallpapes/one-piece-zorro-roronoa-zoro-katana-wallpaper-preview.jpg
+Image=
 SlidePaths=/usr/share/wallpapers
 
 [Containments][2]
@@ -128,7 +128,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][24][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Bamboo at Night/contents/images/5120x2880.png
+Image=
 
 [Containments][25]
 ItemGeometries-1920x1080=
@@ -146,7 +146,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=/home/albi/Pictures/wallpapes/one-piece-zorro-roronoa-zoro-katana-wallpaper-preview.jpg
+Image=
 SlidePaths=/usr/share/wallpapers
 
 [Containments][27]
