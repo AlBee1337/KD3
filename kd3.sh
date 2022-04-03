@@ -17,15 +17,22 @@ then
         cp ./configs/plasma-org.kde.plasma.desktop-appletsrc $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc
         cp ./configs/kwinrc $HOME/.config/kwinrc
         rm -fr kwin-tiling
-        echo "created backup in .config"
+        echo "\ncreated backup in .config "
         echo "krunnerrc.old"
         echo "kglobalshortcutsrc.old"
         echo "plasma-org.kde.plasma.desktop-appletsrc.old"
         echo "kwinrc.old"
+        echo "##################################"
+        echo "#### DONT REMOVE BACKUP FILES ####"
+        echo "##################################"
       shift
       ;;
     -u|--uninstall)
-        echo "uninstall"
+        mv $HOME/.config/krunnerrc.old $HOME/.config/krunnerrc
+        mv $HOME/.config/kglobalshortcutsrc.old $HOME/.config/kglobalshortcutsrc
+        mv $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc.old $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc
+        mv $HOME/.config/kwinrc.old $HOME/.config/kwinrc
+        echo "restored settings before KD3 was installed"
         shift 
       ;;
     -h|--help)
