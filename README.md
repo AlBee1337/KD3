@@ -6,6 +6,7 @@ Tested on Manjaro KDE and KDE Neon
 
 ### Usage
 ```
+git clone https://github.com/AlBee1337/KDi3.git
 cd kdi3
 sh kdi3.sh
 reboot
