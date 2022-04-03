@@ -9,7 +9,7 @@ Based on [https://github.com/kwin-scripts/kwin-tiling.git](https://github.com/kw
 ### Usage
 ```
 git clone https://github.com/AlBee1337/KD3.git
-cd kd3
+cd KD3
 sh kd3.sh
 reboot
 ```
