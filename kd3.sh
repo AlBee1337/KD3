@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-if [ -z $2 ] && [ ! -z $1]
+if [ -z $2 ] && [ ! -z $1 ]
 then
    case "$1" in
     -i|--install)
