@@ -25,6 +25,9 @@ reboot
 ```
 
 ### Importent Shortcuts
+
+#### If your using vscode/codium you should keep in mind that `Ctrl + Shift + 7` not usable to toggle Comments. Edit the KD3 shortcut or vscode/codium shortcut.
+
 |Function| Shortcut|
 |-|-|
 |Show Desktop|Meta + D|
@@ -55,3 +58,4 @@ reboot
 |Minimize Window |Meta + Down|
 |Maximize Window |Meta + Up|
 |**Close Window**|**Ctrl + Shift + Q**|
+
