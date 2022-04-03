@@ -19,12 +19,15 @@ then
             cp ./configs/plasma-org.kde.plasma.desktop-appletsrc $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc
             cp ./configs/kwinrc $HOME/.config/kwinrc
             rm -fr kwin-tiling
+            echo "\n##################################"
+            echo "#### DONT REMOVE BACKUP FILES ####"
+            echo "##################################"
             echo "\ncreated backup in $HOME/.config "
             echo "krunnerrc.kd3"
             echo "kglobalshortcutsrc.kd3"
             echo "plasma-org.kde.plasma.desktop-appletsrc.kd3"
             echo "kwinrc.kd3"
-            echo "##################################"
+            echo "\n##################################"
             echo "#### DONT REMOVE BACKUP FILES ####"
             echo "##################################"
         else 
@@ -43,6 +46,13 @@ then
         shift 
       ;;
     -h|--help)
+        echo "HELP:\n"
+        echo "-i --install             install KD3"
+        echo "-u --uninstall         uninstall KD3"
+        echo "-h --help          show this message"
+        shift 
+      ;;
+     -""|--"")
         echo "HELP:\n"
         echo "-i --install             install KD3"
         echo "-u --uninstall         uninstall KD3"
