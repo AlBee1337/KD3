@@ -11,7 +11,7 @@ sh kdi3.sh
 reboot
 ```
 
-### importent Shortcuts
+### Importent Shortcuts
 |Function| Shortcut|
 |-|-|
 |Show Desktop|Meta + D|
