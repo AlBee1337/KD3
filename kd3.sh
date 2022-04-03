@@ -42,7 +42,10 @@ then
         mv $HOME/.config/kglobalshortcutsrc.kd3 $HOME/.config/kglobalshortcutsrc
         mv $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc.kd3 $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc
         mv $HOME/.config/kwinrc.kd3 $HOME/.config/kwinrc
-        echo "restored settings before KD3 was installed"
+        rm -fr $HOME//.local/share/kwin/scripts/kwin-script-tiling 
+        echo "####################################################"
+        echo "#### restored settings before KD3 was installed ####"
+        echo "####################################################"
         shift 
       ;;
     -h|--help)
@@ -53,7 +56,9 @@ then
         shift 
       ;;
     -*|--*=) # unsupported flags
-        echo "Error: Unsupported flag $1" >&2
+        echo "####################################"
+        echo "#### Error: Unsupported flag $1 ####" >&2
+        echo "####################################"
         exit 1
       ;;
   esac
