@@ -27,14 +27,6 @@ then
         echo "##################################"
       shift
       ;;
-    -u|--uninstall)
-        mv $HOME/.config/krunnerrc.kd3 $HOME/.config/krunnerrc
-        mv $HOME/.config/kglobalshortcutsrc.kd3 $HOME/.config/kglobalshortcutsrc
-        mv $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc.kd3 $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc
-        mv $HOME/.config/kwinrc.kd3 $HOME/.config/kwinrc
-        echo "restored settings before KD3 was installed"
-        shift 
-      ;;
     -h|--help)
         echo "HELP:\n"
         echo "-i --install             install KD3"
@@ -47,6 +39,13 @@ then
         exit 1
       ;;
   esac
+elif [ $1 == "-u" || $1 == "--uninstall" ]
+then
+    mv $HOME/.config/krunnerrc.kd3 $HOME/.config/krunnerrc
+    mv $HOME/.config/kglobalshortcutsrc.kd3 $HOME/.config/kglobalshortcutsrc
+    mv $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc.kd3 $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc
+    mv $HOME/.config/kwinrc.kd3 $HOME/.config/kwinrc
+    echo "restored settings before KD3 was installed"
 else
     echo "\n###########################################################"
     echo "#### Error: To much arguments or KD3 already installed ####"
