@@ -5,32 +5,6 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometries-1920x1080=
-ItemGeometries-3440x1440=
-ItemGeometriesHorizontal=
-activityId=51f5ba61-3bee-4952-a965-b41bceb413ee
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][1][ConfigDialog]
-DialogHeight=720
-DialogWidth=960
-
-[Containments][1][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=1177
-ToolBoxButtonY=40
-
-[Containments][1][Wallpaper][org.kde.image][General]
-FillMode=0
-Image=
-SlidePaths=/usr/share/wallpapers
-
 [Containments][2]
 activityId=
 formfactor=2
@@ -45,7 +19,15 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][20][Configuration]
-PreloadWeight=75
+PreloadWeight=100
+
+[Containments][2][Applets][20][Configuration][Appearance]
+boldText=true
+use24hFormat=2
+
+[Containments][2][Applets][20][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][2][Applets][28]
 immutability=1
@@ -71,6 +53,10 @@ plugin=org.kde.plasma.panelspacer
 
 [Containments][2][Applets][30][Configuration][General]
 length=628
+
+[Containments][2][Applets][36]
+immutability=1
+plugin=org.kde.plasma.lock_logout
 
 [Containments][2][Applets][4]
 immutability=1
@@ -112,14 +98,42 @@ PreloadWeight=100
 SystrayContainmentId=9
 
 [Containments][2][ConfigDialog]
-DialogHeight=91
+DialogHeight=93
 DialogWidth=3440
 
 [Containments][2][General]
-AppletOrder=28;29;4;30;5;8;20;6
+AppletOrder=28;29;4;30;5;36;8;20;6
 
-[Containments][24]
-activityId=51f5ba61-3bee-4952-a965-b41bceb413ee
+[Containments][31]
+ItemGeometries-1920x1080=
+ItemGeometries-3440x1440=
+ItemGeometriesHorizontal=
+activityId=d320e563-15a3-45e3-9e4e-639a93f83d4b
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][31][ConfigDialog]
+DialogHeight=720
+DialogWidth=960
+
+[Containments][31][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=1265
+ToolBoxButtonY=30
+
+[Containments][31][Wallpaper][org.kde.image][General]
+Image=file:///home/albi/Pictures/wallpapes/coldEyesRonin.jpg
+SlidePaths=/usr/share/wallpapers
+
+[Containments][32]
+ItemGeometries-1920x1080=
+ItemGeometries-3440x1440=
+ItemGeometriesHorizontal=
+activityId=d320e563-15a3-45e3-9e4e-639a93f83d4b
 formfactor=0
 immutability=1
 lastScreen=1
@@ -127,13 +141,20 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][24][Wallpaper][org.kde.image][General]
-Image=
+[Containments][32][ConfigDialog]
+DialogHeight=720
+DialogWidth=960
 
-[Containments][25]
+[Containments][32][Wallpaper][org.kde.image][General]
+Image=file:///home/albi/Pictures/wallpapes/pirateHxSkull.jpg
+SlidePaths=/home/albi/.local/share/wallpapers,/usr/share/wallpapers
+
+[Containments][33]
 ItemGeometries-1920x1080=
+ItemGeometries-1920x1200=
+ItemGeometries-3440x1440=
 ItemGeometriesHorizontal=
-activityId=51f5ba61-3bee-4952-a965-b41bceb413ee
+activityId=d320e563-15a3-45e3-9e4e-639a93f83d4b
 formfactor=0
 immutability=1
 lastScreen=2
@@ -141,25 +162,54 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][25][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
+[Containments][33][ConfigDialog]
+DialogHeight=720
+DialogWidth=960
 
-[Containments][25][Wallpaper][org.kde.image][General]
-Image=
-SlidePaths=/usr/share/wallpapers
+[Containments][33][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=500
 
-[Containments][27]
+[Containments][33][Wallpaper][org.kde.image][General]
+FillMode=1
+Image=file:///home/albi/Pictures/wallpapes/pirateHxSkull.jpg
+SlidePaths=/home/albi/.local/share/wallpapers,/usr/share/wallpapers
+
+[Containments][34]
 ItemGeometries-1920x1080=
-ItemGeometries-3440x1440=
 ItemGeometriesHorizontal=
-activityId=51f5ba61-3bee-4952-a965-b41bceb413ee
+activityId=d320e563-15a3-45e3-9e4e-639a93f83d4b
 formfactor=0
 immutability=1
 lastScreen=3
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][34][ConfigDialog]
+DialogHeight=660
+DialogWidth=880
+
+[Containments][34][Wallpaper][org.kde.image][General]
+Image=file:///home/albi/Pictures/wallpapes/pirateHxSkull.jpg
+SlidePaths=/home/albi/.local/share/wallpapers,/usr/share/wallpapers
+
+[Containments][35]
+activityId=d320e563-15a3-45e3-9e4e-639a93f83d4b
+formfactor=0
+immutability=1
+lastScreen=4
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][35][ConfigDialog]
+DialogHeight=720
+DialogWidth=960
+
+[Containments][35][Wallpaper][org.kde.image][General]
+Image=/home/albi/Pictures/wallpapes/pirateHxSkull.jpg
+SlidePaths=/home/albi/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][9]
 activityId=
@@ -202,7 +252,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][9][Applets][17][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][9][Applets][18]
 immutability=1
@@ -213,7 +263,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][9][Applets][19][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][9][Applets][19][Configuration][ConfigDialog]
 DialogHeight=600
@@ -223,6 +273,9 @@ DialogWidth=800
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][9][Applets][21][Configuration]
+PreloadWeight=75
+
 [Containments][9][Applets][21][Configuration][General]
 showPercentage=true
 
@@ -231,14 +284,14 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][9][Applets][22][Configuration]
-PreloadWeight=70
+PreloadWeight=100
 
 [Containments][9][Applets][23]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][9][Applets][23][Configuration]
-PreloadWeight=60
+PreloadWeight=100
 
 [Containments][9][Applets][26]
 immutability=1
@@ -252,7 +305,11 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][9][Applets][27][Configuration]
-PreloadWeight=5
+PreloadWeight=0
+
+[Containments][9][Applets][27][Configuration][ConfigDialog]
+DialogHeight=660
+DialogWidth=880
 
 [Containments][9][ConfigDialog]
 DialogHeight=600

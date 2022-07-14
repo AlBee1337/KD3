@@ -34,5 +34,3 @@ slideEnabled=false
 [org.kde.kdecoration2]
 ButtonsOnLeft=
 ButtonsOnRight=
-library=org.kde.breeze
-theme=Breeze
